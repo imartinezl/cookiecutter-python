@@ -1,0 +1,11 @@
+{
+    "package_display_name": "Package-Name",
+    "package_name": "{{ cookiecutter.package_display_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "package_short_description": "A description of the package",
+    "version": "0.0.1",
+    "author": "Inigo Martinez Lopez",
+    "email": "inigomlap@gmail.com",
+    "github_user_name": "GithubUserName",
+    "github_repo_name": "{{cookiecutter.package_name}}",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
